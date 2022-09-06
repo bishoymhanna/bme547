@@ -38,6 +38,6 @@ def HDL_driver():
     output_HDL_result(hdl_value, answer)
 
 def output_HDL_result(hdl_value, charac):
-    print("The result of an HDL value of {} if {}".format(hdl_value, charac))
+    print("The result of an HDL value of {} is {}".format(hdl_value, charac))
    
 interface()
