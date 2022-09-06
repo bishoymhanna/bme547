@@ -1,1 +1,3 @@
-# bme547
+# Patient Health Database
+
+Author: Bishoy Hanna
