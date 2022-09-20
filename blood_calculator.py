@@ -5,7 +5,6 @@ Created on Mon Sep  5 23:45:15 2022
 
 @author: bishoyzaki
 """
-
 def interface():
     print("Blood Calculator")
     print("Options:")
