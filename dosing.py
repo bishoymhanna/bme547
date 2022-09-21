@@ -13,6 +13,7 @@ Created on Mon Sep 12 12:03:59 2022
              type of medical treatment or diagnostics.
 """
 
+
 def input_diagnosis():
     print("Day One Dosing Guidelines")
     print("")
@@ -23,7 +24,8 @@ def input_diagnosis():
     print("4 - Pharyngitis/tonsilitis")
     diagnosis = int(input("Enter a number: "))
     return diagnosis
-    
+
+
 def input_weight():
     print("PATIENT WEIGHT")
     print("Enter patient weight followed by units of kg or lb.")
@@ -47,8 +49,6 @@ def dose_amount():
     print("For a patient weighing {:.1f} kg,".format(weight))
     print("  the correct dosage is {:.1f} mg the first day"
           .format(dosage_mg_first_day))
-      
-    
 
 
 if __name__ == '__main__':
