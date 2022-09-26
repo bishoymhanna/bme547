@@ -7,7 +7,7 @@ Created on Wed Sep 14 12:29:30 2022
 """
 
 
-def create_patient_entry(patient_first_name, 
+def create_patient_entry(patient_first_name,
                          patient_last_name,
                          patient_id,
                          patient_age):
@@ -43,6 +43,8 @@ def print_database(db):
         print("Name: {}, ID: {}, Age: {}".format(get_full_name(db[patient]),
                                                  db[patient]["Id"],
                                                  db[patient]["Age"]))
+
+
 
 def get_full_name(patient):
     full_name = "{} {}".format(patient["First Name"], patient["Last Name"])
