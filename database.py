@@ -27,7 +27,7 @@ def main():
     print_database(db)
     add_test_result(db, 3, "HDL", 100)
     print_database(db)
-    #print("Patient {} is a {}".format(get_full_name(db[2]),
+    # print("Patient {} is a {}".format(get_full_name(db[2]),
     #                                  adult_or_minor(db[2])))
     # print(find_patient(db, 3))
     # room_list = ["Room 1", "Room 2", "Room 3"]
@@ -43,7 +43,6 @@ def print_database(db):
         print("Name: {}, ID: {}, Age: {}".format(get_full_name(db[patient]),
                                                  db[patient]["Id"],
                                                  db[patient]["Age"]))
-
 
 
 def get_full_name(patient):
